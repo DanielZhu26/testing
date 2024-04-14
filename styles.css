@@ -6,10 +6,21 @@ header {
 }
 
 body {
-	background-size: 100%;
-	font-family: Press Start 2P;
-	background-color: #7a65db;
-	overflow-x:hidden;
+	
+	background-image: 
+		url('web/fondo_MenuInicio.png'), 
+		url('web/16.jpg'), 
+		url('web/wpp.jpg'); /* Agrega aquí las rutas de tus imágenes */
+	background-size: cover; /* Ajusta el tamaño para cubrir todo el área del cuerpo */
+	background-position: center; /* Centra las imágenes */
+	background-repeat: no-repeat; /* Evita que las imágenes se repitan */
+	background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+	font-family: 'Press Start 2P', sans-serif;
+	background-color: #7a65db; /* Color de fondo de reserva */
+	overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+	margin: 0; /* Elimina el margen predeterminado del cuerpo */
+	padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+	
 }
 
 h2 {
