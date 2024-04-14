@@ -254,3 +254,24 @@ footer img:hover {
 	background-image: url('barra-lateral.png');
 	background-repeat: repeat repeat;
 }
+
+.imagen-container {
+    position: relative;
+    display: inline-block; /* Asegura que las imágenes estén una al lado de la otra */
+}
+
+.cambiar-imagen:nth-child(2) {
+    opacity: 0; /* Oculta la segunda imagen al principio */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cambiar-imagen:hover:nth-child(1) {
+    opacity: 0; /* Oculta la primera imagen al pasar el ratón */
+}
+
+.cambiar-imagen:hover:nth-child(2) {
+    opacity: 1; /* Muestra la segunda imagen al pasar el ratón */
+}
