@@ -149,6 +149,14 @@ footer img:hover {
   	margin: 30px auto 0;
 }
 
+.img {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
