@@ -7,7 +7,7 @@ header {
 
 body {
 	background-size: 100%;
-	font-family: Silkscreen;
+	font-family: Press Start 2P;
 	background-color: #7a65db;
 	overflow-x:hidden;
 }
@@ -89,7 +89,7 @@ footer img:hover {
 	width: 75%;
 	height: 75px;
 	font-size: 25px;
-	font-family: Silkscreen;
+	font-family: Press Start 2P;
 	border-radius: 30px;
 }
 
@@ -100,7 +100,7 @@ footer img:hover {
 	border-radius: 2rem;
 	background-color: rgb(144, 233, 11);
 	color: #fff;
-	font: 600px "Silkscreen", Silkscreen;
+	font: 600px "Press Start 2P", Press Start 2P;
 	text-decoration: none;
 	transition: all 0.2s;
 	font-size: 30px;
