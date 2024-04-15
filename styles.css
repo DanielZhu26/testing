@@ -8,9 +8,7 @@ header {
 body {
 	
 	background-image: 
-		url('web/fondo_MenuInicio.png'), 
-		url('web/16.jpg'), 
-		url('web/wpp.jpg'); /* Agrega aquí las rutas de tus imágenes */
+		url('web/fondo_MenuInicio.png'); 
 	background-size: cover; /* Ajusta el tamaño para cubrir todo el área del cuerpo */
 	background-position: center; /* Centra las imágenes */
 	background-repeat: no-repeat; /* Evita que las imágenes se repitan */
@@ -149,7 +147,7 @@ footer img:hover {
   	margin: 30px auto 0;
 }
 
-.img {
+.imgen {
     display: none;
 }
 
@@ -163,6 +161,8 @@ footer img:hover {
 	top: 50%;
 	width: auto;
 	margin-top: -22px;
+	margin-left: 400px;
+	margin-right: 400px;
 	padding: 16px;
 	color: white;
 	font-weight: bold;
@@ -218,9 +218,10 @@ footer img:hover {
 .lista-miembros {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	
+	margin-left: 400px;
 	list-style: none;
+	
 }
 
 .miembro {
